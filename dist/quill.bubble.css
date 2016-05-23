@@ -249,6 +249,16 @@
 .ql-editor .ql-align-right {
   text-align: right;
 }
+.ql-editor .ql-image-align-left {
+  float: left;
+  padding: 1em;
+  padding-left: 0;
+}
+.ql-editor .ql-image-align-right {
+  float: right;
+  padding: 1em;
+  padding-right: 0;
+}
 .ql-editor.ql-blank::before {
   color: rgba(0,0,0,0.6);
   content: attr(data-placeholder);
