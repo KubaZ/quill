@@ -12,6 +12,7 @@ import { BackgroundStyle as Background } from './formats/background';
 import { ColorStyle as Color } from './formats/color';
 import { FontClass as Font } from './formats/font';
 import { SizeClass as Size } from './formats/size';
+import { ImageAlignClass as ImageAlign } from './formats/image-align';
 
 import Bold from './formats/bold';
 import Italic from './formats/italic';
@@ -43,6 +44,7 @@ import SnowTheme from './themes/snow';
 
 Quill.register({
   'formats/align': Align,
+  'formats/image-align': ImageAlign,
   'formats/direction': Direction,
   'formats/indent': Indent,
 

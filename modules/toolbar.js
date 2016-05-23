@@ -185,6 +185,9 @@ Toolbar.DEFAULTS = {
       }
       this.quill.format('direction', value, Quill.sources.USER);
     },
+    'image-align': function(value) {
+      this.quill.format('image-align', value, Quill.sources.USER);
+    },
     indent: function(value) {
       let range = this.quill.getSelection();
       let formats = this.quill.getFormat(range);

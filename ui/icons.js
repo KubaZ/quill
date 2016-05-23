@@ -5,6 +5,10 @@ module.exports = {
     'right'   : require('../assets/icons/align-right.svg'),
     'justify' : require('../assets/icons/align-justify.svg')
   },
+  'image-align': {
+    'left'    : require('../assets/icons/align-left.svg'),
+    'right'   : require('../assets/icons/align-right.svg')
+  },
   'background': require('../assets/icons/background.svg'),
   'blockquote': require('../assets/icons/blockquote.svg'),
   'bold'      : require('../assets/icons/bold.svg'),
